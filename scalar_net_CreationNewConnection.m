@@ -22,7 +22,7 @@ eig_M = sort(eig(M))
 % plot(G, 'Layout', 'layered')
 
 %% Generation of v
-% ibratioal control
+% Vibratioal control
 omega43 = omega_0;
 k43 = sqrt(2)*omega43*sqrt(abs(M(4,3)/M(3,4)));
 omega51 = sqrt(2) * omega_0;
